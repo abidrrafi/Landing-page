@@ -202,7 +202,7 @@ class Point {
   }
 }
 
-const sentences = ["Software Engineer", "20y/o | c++ java Rust", "Native Android Developer"];
+const sentences = ["Actor", "Singer", "Coder (Learning)"];
 let currentSentenceIndex = 0;
 let currentCharacterIndex = 0;
 let writing = true;
