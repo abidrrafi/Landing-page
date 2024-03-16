@@ -77,7 +77,7 @@ async function grantingAccess() {
     await sleep(50);
   }
   const loadSym = ["|", "/", "-", "\\", ];
-  for(let i = 0; i < 9; i++){s
+  for(let i = 0; i < 9; i++){
     for(let j = 0; j < loadSym.length ; j++){
         await sleep(100);
         granting.textContent = grantingText;
@@ -202,7 +202,7 @@ class Point {
   }
 }
 
-const sentences = ["Software Engineer", "20y/o | c++ html css js", "Web Developer"];
+const sentences = ["Software Engineer", "20y/o | c++ java Rust", "Native Android Developer"];
 let currentSentenceIndex = 0;
 let currentCharacterIndex = 0;
 let writing = true;
@@ -242,7 +242,7 @@ function linkHandle(event){
 
   switch(clickId){
     case 'text-github':
-      window.open('https://github.com/Sheikh Abid R Rafi', '_blank');
+      window.open('https://github.com/Sheikh-Abid-R-Rafi', '_blank');
       break;
     case 'text-yt':
       window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D', '_blank');
@@ -255,7 +255,7 @@ function linkHandle(event){
 
 async function animstart(){
   textnullBit.style.zIndex = "6";
-  const alex = "Sheikh Abid R Rafi"
+  const alex = "Sheikh-Abid-R-Rafi"
   textnullBit.textContent = alex;
   textInfo.textContent = "hahaha so cool";
   textGithub.textContent = "Github";
