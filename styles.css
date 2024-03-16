@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #black-screen {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    
+  }
+
+  #black-screen.black-screen-hidden {
+    opacity: 0.75; 
+    pointer-events: none; 
+    
+  }
+  
+  .black-screen-hidden * {
+    visibility: hidden; 
+  }
+  
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+  }
+  
+  .video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+
+  
+  #text-loading {
+    color: white;
+    font-family: monospace;
+    font-size: 26px; 
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+  }
+
+  #text-root {
+    color:salmon;
+    font-family: "Monospace", "DejaVu Sans Mono", monospace;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+
+  }
+
+  #text-greeting{
+    color:white;
+    font-family: "Monospace", "DejaVu Sans Mono", monospace;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    pointer-events: none;
+
+  }
+  
+  #text-press{
+    color:red;
+    font-family: "Monospace","DejaVu Sans Mono", monospace;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    pointer-events: none;
+  }
+
+  #text-nullBit {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 150px; 
+    font-weight: bold; 
+    font-family: 'Impact' fantasy; 
+    pointer-events: none;
+    z-index: -10;
+  }
+
+  #text-info {
+    color:white;
+    position: absolute;
+    top: calc(30% + 60px + 15px);
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 25px;
+    font-family: 'Courier';
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  #text-github {
+    color: white;
+    position: absolute;
+    top: calc(30% + 100px + 15px + 60px);
+    left: 40%;
+    transform: translate(-40%,0);
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Florence' cursive;
+    cursor: pointer;
+    z-index: 10;
+
+  }
+
+  #text-yt {
+    color: white;
+    position: absolute;
+    top: calc(30% + 100px + 15px + 60px);
+    left: 50%;
+    transform: translate(-50%,0);
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Florence' cursive;
+    cursor: pointer;
+    z-index: 10;
+
+  }
+
+  #text-dc {
+    color: white;
+    position: absolute;
+    top: calc(30% + 100px + 15px + 60px);
+    left: 60%;
+    transform: translate(-60%,0);
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Florence' cursive;
+    cursor: pointer;
+    z-index: 10;
+
+  }
+
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1; 
+  }
+  
+ #canv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display:block;
+  z-index: -10;
+ }
