@@ -52,7 +52,7 @@ async function typeLoading() {
 }
 
 async function grantingAccess() {
-  const rootText = 'root@Sheikh-Abid-R-Rafi:~';
+  const rootText = 'root@SK-Rafi:~';
   textRoot.textContent = rootText;
   
   const granting = document.createElement('span');
@@ -242,25 +242,25 @@ function linkHandle(event){
 
   switch(clickId){
     case 'text-github':
-      window.open('https://github.com/Sheikh-Abid-R-Rafi', '_blank');
+      window.open('https://www.facebook.com/Abidrrafi/', '_blank');
       break;
     case 'text-yt':
-      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D', '_blank');
+      window.open('https://g.co/kgs/A1Ko9r9', '_blank');
       break;
     case 'text-dc':
-      window.open('https://discord.gg/Ae8NpsMn', '_blank');
+      window.open('https://www.instagram.com/_sk.rafi/', '_blank');
       break;
   }
 }
 
 async function animstart(){
   textnullBit.style.zIndex = "6";
-  const alex = "Sheikh-Abid-R-Rafi"
-  textnullBit.textContent = alex;
+  const rafi = "SK-Rafi"
+  textnullBit.textContent = rafi;
   textInfo.textContent = "hahaha so cool";
-  textGithub.textContent = "Github";
-  textYT.textContent = "Youtube";
-  textDC.textContent = "Discord";
+  textGithub.textContent = "Facebook";
+  textYT.textContent = "Google";
+  textDC.textContent = "Instagram";
 
   textGithub.addEventListener('click', linkHandle)
   textYT.addEventListener('click', linkHandle);
