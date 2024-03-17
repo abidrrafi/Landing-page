@@ -255,7 +255,7 @@ function linkHandle(event){
 
 async function animstart(){
   textnullBit.style.zIndex = "6";
-  const rafi = "SK Rafi"
+  const rafi = "Rafi"
   textnullBit.textContent = rafi;
   textInfo.textContent = "hahaha so cool";
   textGithub.textContent = "Facebook";
