@@ -52,7 +52,7 @@ async function typeLoading() {
 }
 
 async function grantingAccess() {
-  const rootText = 'root@SK-Rafi:~';
+  const rootText = 'root@SK Rafi:~';
   textRoot.textContent = rootText;
   
   const granting = document.createElement('span');
