@@ -52,7 +52,7 @@ async function typeLoading() {
 }
 
 async function grantingAccess() {
-  const rootText = 'root@SK Rafi:~';
+  const rootText = 'root@Rafi:~';
   textRoot.textContent = rootText;
   
   const granting = document.createElement('span');
@@ -255,7 +255,7 @@ function linkHandle(event){
 
 async function animstart(){
   textnullBit.style.zIndex = "6";
-  const rafi = "SK-Rafi"
+  const rafi = "SK Rafi"
   textnullBit.textContent = rafi;
   textInfo.textContent = "hahaha so cool";
   textGithub.textContent = "Facebook";
